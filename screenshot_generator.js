@@ -85,7 +85,7 @@ function getScreenShot()
   const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '3fc941cd5dmshd4936703c58a6cep13cb94jsn1de8840a85a7',
+		'X-RapidAPI-Key': config.KEY,
 		'X-RapidAPI-Host': 'website-screenshot6.p.rapidapi.com'
 	}
 };
